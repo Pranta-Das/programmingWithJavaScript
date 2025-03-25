@@ -1,5 +1,9 @@
 const prompt = require("prompt-sync")({sigint:true});
-const productPrice = prompt("Enter the total product price: ");
+const productPrice = parseInt(prompt("Enter the total product price: "));
+// const typeOfValue = typeof(productPrice);
+// console.log(typeOfValue);
+// const c = productPrice.toString();
+// console.log(typeof(c));
 if (productPrice>=6000){
     const gettingDiscount = (productPrice/100)*15;
     const afterDiscount = (productPrice - gettingDiscount);
