@@ -22,3 +22,15 @@ const arrayNumber = ['ami', 'Tumi ', 'sei'];
 const removeLastValue = arrayNumber.pop();
 console.log(removeLastValue);
 console.log(arrayNumber);
+
+//If i want to remove any value from the array:
+
+const num1= ['pranto', 'joy', 'karim'];
+num1.shift();
+console.log(num1);
+
+//If i want to add value start of the array:
+
+const num2 = [565,34,2,23,34,23];
+num2.unshift('heyNumers');
+console.log(num2);
