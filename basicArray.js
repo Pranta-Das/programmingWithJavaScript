@@ -51,3 +51,7 @@ console.log(fileOne.length);
 
 const fileTow = fileOne.indexOf(4);
 console.log(fileTow);
+
+const arrayFive = ["pranto", 'joy', 'Antor'];
+const findingValue = arrayFive.indexOf('hero');
+console.log(findingValue);
