@@ -34,3 +34,20 @@ console.log(num1);
 const num2 = [565,34,2,23,34,23];
 num2.unshift('heyNumers');
 console.log(num2);
+
+//for find out any value from array
+
+const a= ['tumi', 'sei', 'ami', 'joy']
+const findOut = a.includes('sei');
+console.log(findOut);
+
+const c = a.includes('AMI');
+console.log(c);
+
+//For finding out the index number:
+
+const fileOne = [15,545,2,4,45,54,5245,1,4];
+console.log(fileOne.length);
+
+const fileTow = fileOne.indexOf(4);
+console.log(fileTow);
